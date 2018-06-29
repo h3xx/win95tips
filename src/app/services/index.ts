@@ -1,0 +1,1 @@
+export * from './weirdmessage.service';
