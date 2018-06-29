@@ -1,0 +1,54 @@
+<div class="window">
+	<div class="titlebar">
+		Welcome
+		<div class="x-button"></div>
+	</div>
+
+	<div class="welcome-to-windows">
+		<span class="welcome">
+			Welcome to <span class="windows">Windows<span class="_95">95</span></span>
+		</span>
+	</div>
+
+	<div class="yellow-box">
+		<div class="lightbulb"></div>
+
+		<div class="text">
+
+			<div class="did-you-know">
+				Did you know...
+			</div>
+
+			<div class="tip" [innerHTML]="this.msg">
+			</div>
+
+		</div>
+	</div>
+
+	<div class="buttons">
+		<button>
+			What's <span class="key">N</span>ew
+		</button>
+		<button>
+			<span class="key">O</span>nline Registration
+		</button>
+		<button
+			(click)="this.newMessage()"
+			>
+			Next <span class="key">T</span>ip
+		</button>
+		<div class="flex-space"></div>
+		<hr>
+		<button>
+			Close
+		</button>
+	</div>
+
+	<div class="remember">
+		<div class="checkbox"></div>
+		<div class="message">
+			<span class="key">S</span>how this Welcome screen next time you start Windows
+		</div>
+	</div>
+
+</div>
