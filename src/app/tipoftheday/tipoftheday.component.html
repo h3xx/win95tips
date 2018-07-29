@@ -1,7 +1,7 @@
 <div class="window">
 	<div class="titlebar">
 		Welcome
-		<div class="x-button"></div>
+		<button class="x" (click)="this.close()"></button>
 	</div>
 
 	<div class="welcome-to-windows">
@@ -26,20 +26,26 @@
 	</div>
 
 	<div class="buttons">
-		<button>
+		<button
+			(click)="this.whatsNew()"
+			>
 			What's <span class="key">N</span>ew
 		</button>
-		<button>
+		<button
+			(click)="this.onlineRegistration()"
+			>
 			<span class="key">O</span>nline Registration
 		</button>
 		<button
-			(click)="this.newMessage()"
+			(click)="this.nextTip()"
 			>
 			Next <span class="key">T</span>ip
 		</button>
 		<div class="flex-space"></div>
 		<hr>
-		<button>
+		<button
+			(click)="this.close()"
+			>
 			Close
 		</button>
 	</div>
