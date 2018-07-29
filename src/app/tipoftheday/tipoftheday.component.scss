@@ -9,7 +9,8 @@ $windows-highlight: #ffffff;
     height: 279px;
     font-family: Arial;
     font-size: 12px;
-    border: 2px $windows-gray outset;
+    border: 2px outset;
+    border-color: $windows-highlight $windows-shadow $windows-shadow $windows-highlight;
     background-color: $windows-gray;
 
     button {
@@ -58,7 +59,8 @@ $windows-highlight: #ffffff;
     .yellow-box {
         position: relative;
         margin-left: 16px;
-        border: 1px $windows-gray inset;
+        border: 1px inset;
+        border-color: $windows-shadow $windows-highlight $windows-highlight $windows-shadow;
         max-width: calc(100% - 54px);
         height: 153px;
         width: 330px;
