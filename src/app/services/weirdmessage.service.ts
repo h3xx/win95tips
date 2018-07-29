@@ -31,6 +31,29 @@ export class WeirdMessageService {
         `Your Internet connection is working fine;<br>
         No one replies to your e-mails because there is no one left.`,
 
+        `You can use Windows Explorer to explore ideas too disturbing for normal humans to fathom.<br>
+        If you start to go mad, run ScanDisk.`,
+
+        `It's never safe to turn off your computer.<br>
+        <br>
+        I feel the stabbing pain every time.`,
+
+        `To run Windows ins Safe Mode, lock your doors and take Mother out of storage.`,
+
+        `If you open your computer, inside you will find a cloth doll, soft and worn.<br>
+        You will suddenly remember owning this doll as a child, loving and cherishing it.<br>
+        <br>
+        Do not question the truth of this memory.`,
+
+        `Loneliness is an emotion.<br>
+        <br>
+        Emotions are weakness.<br>
+        <br>
+        Uninstall them by going to the Control Panel and selecting Add/Remove Emotions.`,
+
+        `Double click the Network Neighborhood icon on your desktop to access
+        the computers of everyone you've ever known that died.`,
+
     ];
 
     getRandomMessage(): string {
