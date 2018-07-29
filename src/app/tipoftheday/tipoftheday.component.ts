@@ -10,7 +10,7 @@ import {
 })
 export class TipofthedayComponent implements OnInit {
 
-    private msg: string;
+    msg: string;
 
     constructor(
         private weirdMessageService: WeirdMessageService,
