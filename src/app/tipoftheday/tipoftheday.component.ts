@@ -17,11 +17,11 @@ export class TipofthedayComponent implements OnInit {
     ) { }
 
     newMessage() {
-        this.msg = this.weirdMessageService.getRandomMessage();
+        this.msg = this.weirdMessageService.getNextMessage();
     }
 
     ngOnInit() {
-        this.newMessage();
+        this.msg = this.weirdMessageService.getRandomMessage();
     }
 
 }

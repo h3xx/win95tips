@@ -59,7 +59,18 @@ export class WeirdMessageService {
 
     ];
 
-    getRandomMessage(): string {
-        return this.messages[Math.floor(Math.random() * this.messages.length)];
+    private lastMsgIdx = 0;
+
+    public getRandomMessage(): string {
+        return this.messages[
+            (this.lastMsgIdx = Math.floor(Math.random() * this.messages.length))
+        ];
     }
+
+    public getNextMessage(): string {
+        return this.messages[
+            (this.lastMsgIdx = (this.lastMsgIdx + 1) % this.messages.length)
+        ];
+    }
+
 }
