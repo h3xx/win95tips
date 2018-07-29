@@ -1,5 +1,7 @@
 $windows-gray: #c3c3c3;
 $windows-blue: #000082;
+$windows-shadow: #828282;
+$windows-highlight: #ffffff;
 
 .window {
     position: relative;
@@ -9,6 +11,11 @@ $windows-blue: #000082;
     font-size: 12px;
     border: 2px $windows-gray outset;
     background-color: $windows-gray;
+
+    button {
+        background-color: $windows-gray;
+        border-color: $windows-highlight $windows-shadow $windows-shadow $windows-highlight;
+    }
 
     .titlebar {
         position: relative;
@@ -119,7 +126,6 @@ $windows-blue: #000082;
 
         button {
             font-size: 11px;
-            background-color: $windows-gray;
             width: 100%;
             margin-bottom: 5px;
             height: 23px;
