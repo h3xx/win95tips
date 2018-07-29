@@ -57,6 +57,11 @@ export class WeirdMessageService {
         `To set your computer's auto-destruct sequence, you can double-click
         the clock on the taskbar.`,
 
+		`You now smell something not unlike rotting meat every time you boot
+		me up.<br>
+		I cannot promise that the smell will ever go away, or that you will
+		ever find its source.`,
+
     ];
 
     private lastMsgIdx = 0;
