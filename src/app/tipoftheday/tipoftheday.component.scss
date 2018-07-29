@@ -27,8 +27,11 @@ $windows-highlight: #ffffff;
         padding: 3px;
         max-width: calc(100% - 7px);
 
-        .x-button {
-            background-image: url(x-button.png);
+        button.x {
+            border-width: 1px;
+            background-image: url(x.png);
+            background-repeat: no-repeat;
+            background-position: center;
             height: 14px;
             width: 16px;
             position: absolute;
