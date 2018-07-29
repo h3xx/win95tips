@@ -54,6 +54,9 @@ export class WeirdMessageService {
         `Double click the Network Neighborhood icon on your desktop to access
         the computers of everyone you've ever known that died.`,
 
+        `To set your computer's auto-destruct sequence, you can double-click
+        the clock on the taskbar.`,
+
     ];
 
     getRandomMessage(): string {
