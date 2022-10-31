@@ -1,5 +1,4 @@
-# Windows 95 Tips ![Windows 95 logo](./src/favicon.png)
+# Windows 95 Tips
 
-Give helpful Windows tips.
-
-**[![Windows 95 logo](./src/favicon.png) View it in action!](https://h3xx.github.io/win95tips/)**
+This project has moved to Codeberg:
+https://codeberg.org/h3xx/win95tips
